@@ -14,18 +14,24 @@ To add a new preprocessing method e.g for a different training datatype, see pre
 
 ### Installation (Paul Gasper)
 Have to cd to a different repo that has a requirements file.
+```
 >> cd "C:\Users\pgasper\Documents\GitHub\SliceGAN\SliceGAN_AdaIN - REUSABILITY REPORT\SliceGAN_AdaIN-master"
+```
 Below is copied from their install shell script.
+```
 >> conda create -n sliceGAN python=3.7
 >> conda activate sliceGAN
 >> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
 >> conda install -c anaconda ipykernel
 >> python -m ipykernel install --user --name=sliceGAN
 >> pip install -r requirements.txt
+```
 
 The conda installation of pillow library caused an error.
+```
 >> conda uninstall pillow
 >> pip install pillow
+```
 
 ### Results
 
